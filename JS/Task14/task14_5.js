@@ -1,3 +1,7 @@
+//Дано: Функція приймає три параметри: масив обєктів [{}, {}], назву поля обєкту (string), значення (string) 
+//Результат: Вивести у консоль новий масив з якого видалені усі обєкти в яких keyName буде дорівнювати value 
+
+
 function removeObj(arrayOfObj, keyName, value) {
     return arrayOfObj.filter(obj => obj[keyName] !== value);
 }
