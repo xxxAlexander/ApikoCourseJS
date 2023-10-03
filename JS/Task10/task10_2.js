@@ -1,3 +1,7 @@
+//Дано: масив [3, 2, "2", null, 1.5, 9.5, undefined];
+
+//Результат: Вивести у консоль суму чисел у масиві.
+
 function calculateSumOfArray() {
     const initialArray = [3, 2, "2", null, 1.5, 9.5, undefined];
     let sum = 0;
