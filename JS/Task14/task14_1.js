@@ -1,3 +1,7 @@
+//Дано: функція яка приймає масив чисел або стрічок. 
+//Результат: вивести у консоль масив унікальних значень початкового масиву 
+
+
 function unicFn(initialArray) {
     return initialArray.filter((value, index, array) => array.indexOf(value) === index);
 }
